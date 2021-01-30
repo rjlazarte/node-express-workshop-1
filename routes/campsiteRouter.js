@@ -5,7 +5,7 @@ campsiteRouter.route('/')
 .all((req, res, next) => {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
-    next();
+    next(); 
 })
 .get((req, res) => {
     res.end('Will send all the campsites to you');

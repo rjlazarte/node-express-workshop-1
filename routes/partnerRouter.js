@@ -1,5 +1,5 @@
 const express = require('express');
-const partnerRouter = express.Router();
+const partnerRouter = express.Router(); 
 
 partnerRouter.route('/')
 .all((req, res, next) => {
